@@ -1,7 +1,7 @@
-import json
+import tomli
 
-with open("x-sampa.json", encoding="utf-8") as json_file:
-    data = json.load(json_file)
+with open("x-sampa.toml", mode = 'rb') as fp:
+    data = tomli.load(fp)
 
 def get_ipa_char(code):
     return data[code]["ipa"]
