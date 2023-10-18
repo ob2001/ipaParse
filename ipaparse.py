@@ -24,8 +24,7 @@ def hello_world_by_chars():
         + " " 
         + get_ipa_char("<R>")
         + get_ipa_char("w") 
-        + get_ipa_char("U") 
-        + get_ipa_char("r\\")
+        + get_ipa_char("@`") 
         + get_ipa_char("l")
         + get_ipa_char("d")
         + "]!")
