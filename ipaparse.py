@@ -16,15 +16,15 @@ def hello_world_by_chars():
     print("["
         + get_ipa_char("<F>")
         + get_ipa_char("\"")
-        + get_ipa_char("h") 
-        + get_ipa_char("E") 
+        + get_ipa_char("h")
+        + get_ipa_char("E")
         + get_ipa_char("%")
-        + get_ipa_char("l") 
-        + get_ipa_char("o") 
-        + " " 
+        + get_ipa_char("l")
+        + get_ipa_char("o")
+        + " "
         + get_ipa_char("<R>")
-        + get_ipa_char("w") 
-        + get_ipa_char("@`") 
+        + get_ipa_char("w")
+        + get_ipa_char("@`")
         + get_ipa_char("l")
         + get_ipa_char("d")
         + "]!")
