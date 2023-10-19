@@ -1,125 +1,58 @@
-1 = {ipa = "ɨ", v-c = "v", u-r = "u", poa = "central", moa = "close"}
-2 = {ipa = "ø", v-c = "v", u-r = "r", poa = "front", moa = "close-mid"}
-3 = {ipa = "ɜ", v-c = "v", u-r = "u", poa = "central", moa = "open-mid"}
-4 = {ipa = "ɾ", v-c = "c", u-v = "v", poa = "alveolar", moa = "flap"}
-5 = {ipa = "ɫ", v-c = "c", u-v = "v", poa = "velarized alveolar lateral", moa = "approximant", code = "darkl"}
-6 = {ipa = "ɐ", v-c = "v", u-r = "u", poa = "central", moa = "near-open"}
-7 = {ipa = "ɤ", v-c = "v", u-r = "u", poa = "back", moa = "close-mid"}
-8 = {ipa = "ɵ", v-c = "v", u-r = "r", poa = "central", moa = "close-mid"}
-9 = {ipa = "œ", v-c = "v", u-r = "r", poa = "front", moa = "open-mid"}
-a = {ipa = "a", v-c = "v", u-r = "u", poa = "front", moa = "open"}
-b = {ipa = "b", v-c = "c", u-v = "v", poa = "bilabial", moa = "plosive"}
+# ORDER IS IMPORTANT!!!
+
+"G\\_<" = {ipa = "ʛ", v-c = "c", u-v = "v", poa = "uvular", moa = "implosive"}
+"J\\_<" = {ipa = "ʄ", v-c = "c", u-v = "v", poa = "palatal", moa = "implosive"}
+"|\\|\\" = {ipa = "ǁ", v-c = "c", u-v = "u", poa = "alveolar lateral", moa = "click"}
+_B_L = {ipa = "\u1dc5", code = "lrisetone"}
+_H_T = {ipa = "\u1dc4", code = "hrisetone"}
+_R_F = {ipa = "\u1dc8", code = "risefalltone"}
 "b_<" = {ipa = "ɓ", v-c = "c", u-v = "v", poa = "bilabial", moa = "implosive"}
-c = {ipa = "c", v-c = "c", u-v = "u", poa = "palatal", moa = "plosive"}
-d = {ipa = "d", v-c = "c", u-v = "v", poa = "alveolar", moa = "plosive"}
-"d`" = {ipa = "ɖ", v-c = "c", u-v = "v", poa = "retroflex", moa = "plosive"}
 "d_<" = {ipa = "ɗ", v-c = "c", u-v = "v", poa = "alveolar", moa = "implosive"}
-e = {ipa = "e", v-c = "v", u-r = "u", poa = "front", moa = "close-mid"}
-f = {ipa = "f", v-c = "c", u-v = "u", poa = "labiodental", moa = "fricative"}
-g = {ipa = "ɡ", v-c = "c", u-v = "v", poa = "velar", moa = "plosive"}
 "g_<" = {ipa = "ɠ", v-c = "c", u-v = "v", poa = "velar", moa = "implosive"}
-h = {ipa = "h", v-c = "c", u-v = "u", poa = "glottal", moa = "fricative"}
+"r\\`" = {ipa = "ɻ", v-c = "c", u-v = "v", poa = "retroflex", moa = "approximant"}
+"_?\\" = {ipa = "ˤ", code = "phard"}
+"<F>" = {ipa = "↘︎", code = "glfall"}
+"<R>" = {ipa = "↗︎", code = "glrise"}
+"d`" = {ipa = "ɖ", v-c = "c", u-v = "v", poa = "retroflex", moa = "plosive"}
 "h\\" = {ipa = "ɦ", v-c = "c", u-v = "v", poa = "glottal", moa = "fricative"}
-i = {ipa = "i", v-c = "v", u-r = "u", poa = "front", moa = "close"}
-j = {ipa = "j", v-c = "c", u-v = "v", poa = "palatal", moa = "approximant"}
 "j\\" = {ipa = "ʝ", v-c = "c", u-v = "v", poa = "palatal", moa = "fricative"}
-k = {ipa = "k", v-c = "c", u-v = "u", poa = "velar", moa = "plosive"}
-l = {ipa = "l", v-c = "c", u-v = "v", poa = "alveolar lateral", moa = "approximant"}
 "l`" = {ipa = "ɭ", v-c = "c", u-v = "v", poa = "retroflex lateral", moa = "approximant"}
 "l\\" = {ipa = "ɺ", v-c = "c", u-v = "v", poa = "alveolar lateral", moa = "flap"}
-m = {ipa = "m", v-c = "c", u-v = "v", poa = "bilabial", moa = "nasal"}
-n = {ipa = "n", v-c = "c", u-v = "v", poa = "alveolar", moa = "nasal"}
 "n`" = {ipa = "ɳ", v-c = "c", u-v = "v", poa = "retroflex", moa = "nasal"}
-o = {ipa = "o", v-c = "v", u-r = "r", poa = "back", moa = "close-mid"}
-p = {ipa = "p", v-c = "c", u-v = "u", poa = "bilabial", moa = "plosive"}
 "p\\" = {ipa = "ɸ", v-c = "c", u-v = "u", poa = "bilabial", moa = "fricative"}
-q = {ipa = "q", v-c = "c", u-v = "u", poa = "uvular", moa = "plosive"}
-r = {ipa = "r", v-c = "c", u-v = "v", poa = "alveolar", moa = "trill"}
 "r`" = {ipa = "ɽ", v-c = "c", u-v = "v", poa = "retroflex", moa = "flap"}
 "r\\" = {ipa = "ɹ", v-c = "c", u-v = "v", poa = "alveolar", moa = "approximant"}
-"r\\`" = {ipa = "ɻ", v-c = "c", u-v = "v", poa = "retroflex", moa = "approximant"}
-s = {ipa = "s", v-c = "c", u-v = "u", poa = "alveolar", moa = "fricative"}
 "s`" = {ipa = "ʂ", v-c = "c", u-v = "u", poa = "retroflex", moa = "fricative"}
 "s\\" = {ipa = "ɕ", v-c = "c", u-v = "u", poa = "alveolo-palatal", moa = "fricative"}
-t = {ipa = "t", v-c = "c", u-v = "u", poa = "alveolar", moa = "plosive"}
 "t`" = {ipa = "ʈ", v-c = "c", u-v = "u", poa = "retroflex", moa = "plosive"}
-u = {ipa = "u", v-c = "v", u-r = "r", poa = "back", moa = "close"}
-v = {ipa = "v", v-c = "c", u-v = "v", poa = "labiodental", moa = "fricative"}
 "v\\" = {ipa = "ʋ", v-c = "c", u-v = "v", poa = "labiodental", moa = "approximant"}
-P = {ipa = "ʋ", v-c = "c", u-v = "v", poa = "labiodental", moa = "approximant"}
-w = {ipa = "w", v-c = "c", u-v = "v", poa = "labial-velar", moa = "approximant"}
-x = {ipa = "x", v-c = "c", u-v = "u", poa = "velar", moa = "fricative"}
 "x\\" = {ipa = "ɧ", v-c = "c", u-v = "u", poa = "palatal-velar", moa = "fricative"}
-y = {ipa = "y", v-c = "v", u-r = "r", poa = "front", moa = "close"}
-z = {ipa = "z", v-c = "c", u-v = "v", poa = "alveolar", moa = "fricative"}
 "z`" = {ipa = "ʐ", v-c = "c", u-v = "v", poa = "retroflex", moa = "fricative"}
 "z\\" = {ipa = "ʑ", v-c = "c", u-v = "v", poa = "alveolo-palatal", moa = "fricative"}
-A = {ipa = "ɑ", v-c = "v", u-r = "u", poa = "back", moa = "open"}
-B = {ipa = "β", v-c = "c", u-v = "v", poa = "bilabial", moa = "fricative"}
 "B\\" = {ipa = "ʙ", v-c = "c", u-v = "v", poa = "bilabial", moa = "trill"}
-C = {ipa = "ç", v-c = "c", u-v = "u", poa = "palatal", moa = "fricative"}
-D = {ipa = "ð", v-c = "c", u-v = "v", poa = "dental", moa = "fricative"}
-E = {ipa = "ɛ", v-c = "v", u-r = "u", poa = "front", moa = "open-mid"}
-F = {ipa = "ɱ", v-c = "c", u-v = "u", poa = "labiodental", moa = "nasal"}
-G = {ipa = "ɣ", v-c = "c", u-v = "v", poa = "velar", moa = "fricative"}
 "G\\" = {ipa = "ɢ", v-c = "c", u-v = "v", poa = "uvular", moa = "plosive"}
-"G\\_<" = {ipa = "ʛ", v-c = "c", u-v = "v", poa = "uvular", moa = "implosive"}
-H = {ipa = "ɥ", v-c = "c", u-v = "v", poa = "labial-palatal", moa = "approximant"}
 "H\\" = {ipa = "ʜ", v-c = "c", u-v = "u", poa = "epiglottal", moa = "fricative"}
-I = {ipa = "ɪ", v-c = "v", u-r = "u", poa = "front", moa = "near-close"}
 "I\\" = {ipa = "ᵻ", v-c = "v", u-r = "u", poa = "central", moa = "near-close"}
-J = {ipa = "ɲ", v-c = "c", u-v = "v", poa = "palatal", moa = "nasal"}
 "J\\" = {ipa = "ɟ", v-c = "c", u-v = "v", poa = "palatal", moa = "plosive"}
-"J\\_<" = {ipa = "ʄ", v-c = "c", u-v = "v", poa = "palatal", moa = "implosive"}
-K = {ipa = "ɬ", v-c = "c", u-v = "u", poa = "alveolar lateral", moa = "fricative"}
 "K\\" = {ipa = "ɮ", v-c = "c", u-v = "v", poa = "alveolar lateral", moa = "fricative"}
-L = {ipa = "ʎ", v-c = "c", u-v = "v", poa = "palatal lateral", moa = "approximant"}
 "L\\" = {ipa = "ʟ", v-c = "c", u-v = "v", poa = "velar lateral", moa = "approximant"}
-M = {ipa = "ɯ", v-c = "v", u-r = "u", poa = "back", moa = "close"}
 "M\\" = {ipa = "ɰ", v-c = "c", u-v = "v", poa = "velar", moa = "approximant"}
-N = {ipa = "ŋ", v-c = "c", u-v = "v", poa = "velar", moa = "nasal"}
 "N\\" = {ipa = "ɴ", v-c = "c", u-v = "v", poa = "uvular", moa = "nasal"}
-O = {ipa = "ɔ", v-c = "v", u-r = "r", poa = "back", moa = "open-mid"}
 "O\\" = {ipa = "ʘ", v-c = "c", u-v = "u", poa = "bilabial", moa = "click"}
-Q = {ipa = "ɒ", v-c = "v", u-r = "r", poa = "back", moa = "open"}
-R = {ipa = "ʁ", v-c = "c", u-v = "v", poa = "uvular", moa = "fricative"}
 "R\\" = {ipa = "ʀ", v-c = "c", u-v = "v", poa = "uvular", moa = "trill"}
-S = {ipa = "ʃ", v-c = "c", u-v = "u", poa = "postalveolar", moa = "fricative"}
-T = {ipa = "θ", v-c = "c", u-v = "u", poa = "dental", moa = "fricative"}
-U = {ipa = "ʊ", v-c = "v", u-r = "r", poa = "back", moa = "near-close"}
 "U\\" = {ipa = "ᵿ", v-c = "v", u-r = "r", poa = "central", moa = "near-close"}
-V = {ipa = "ʌ", v-c = "v", u-r = "u", poa = "back", moa = "open-mid"}
-W = {ipa = "ʍ", v-c = "c", u-v = "u", poa = "labial-velar", moa = "fricative"}
-X = {ipa = "χ", v-c = "c", u-v = "u", poa = "uvular", moa = "fricative"}
 "X\\" = {ipa = "ħ", v-c = "c", u-v = "u", poa = "pharyngeal", moa = "fricative"}
-Y = {ipa = "ʏ", v-c = "v", u-r = "r", poa = "front", moa = "near-close"}
-Z = {ipa = "ʒ", v-c = "c", u-v = "v", poa = "postalveolar", moa = "fricative"}
-"." = {ipa = ".", code = "syllbr"}
-"\"" = {ipa = "ˈ", code = "pristr"}
-"%" = {ipa = "ˌ", code = "secstr"}
-"'" = {ipa = "ʲ", code = "pal"}
 _j = {ipa = "ʲ", code = "pal"}
-":" = {ipa = "ː", code = "long"}
 ":\\" = {ipa = "ˑ", code = "hlong"}
-- = {ipa = "", code = "sep"}
-"@" = {ipa = "ə", v-c = "v", u-r = "u", poa = "central", moa = "mid"}
 "@\\" = {ipa = "ɘ", v-c = "v", u-r = "u", poa = "central", moa = "close-mid"}
 "@`" = {ipa = "ɚ", v-c = "v", u-r = "u", poa = "central", moa = "mid", code = "rschw"}
-"{" = {ipa = "æ", v-c = "v", u-r = "u", poa = "front", moa = "near-open"}
-"}" = {ipa = "ʉ", v-c = "v", u-r = "r", poa = "central", moa = "close"}
 "3\\" = {ipa = "ɞ", v-c = "v", u-r = "r", poa = "central", moa = "open-mid"}
-"&" = {ipa = "ɶ", v-c = "v", u-r = "r", poa = "front", moa = "open"}
-"?" = {ipa = "ʔ", v-c = "c", u-v = "u", poa = "glottal", moa = "plosive"}
 "?\\" = {ipa = "ʕ", v-c = "c", u-v = "v", poa = "pharyngeal", moa = "fricative"}
 "<\\" = {ipa = "ʢ", v-c = "c", u-v = "v", poa = "epiglottal", moa = "fricative"}
 ">\\" = {ipa = "ʡ", v-c = "c", u-v = "u", poa = "epiglottal", moa = "plosive"}
-"^" = {ipa = "ꜛ", code = "upstep"}
-"!" = {ipa = "ꜜ", code = "downstep"}
 "!\\" = {ipa = "ǃ", v-c = "c", u-v = "u", poa = "postalveolar", moa = "click"}
-"|" = {ipa = "|", code = "mingp"}
 "|\\" = {ipa = "ǀ", v-c = "c", u-v = "u", poa = "dental", moa = "click"}
 "||" = {ipa = "‖", code = "majgp"}
-"|\\|\\" = {ipa = "ǁ", v-c = "c", u-v = "u", poa = "alveolar lateral", moa = "click"}
 "=\\" = {ipa = "ǂ", v-c = "c", u-v = "u", poa = "palatal", moa = "click"}
 "-\\" = {ipa = "\u035c", code = "link"}
 "_\"" = {ipa = "\u0308", code = "centd"}
@@ -127,28 +60,21 @@ _j = {ipa = "ʲ", code = "pal"}
 _- = {ipa = "\u0320", code = "retd"}
 "_/" = {ipa = "\u030c", code = "risetone"}
 _0 = {ipa = "\u0325", code = "vcless"}
-"=" = {ipa = "\u0329", code = "syll"}
 "_=" = {ipa = "\u0329", code = "syll"}
 "_>" = {ipa = "ʼ", code = "ej"}
-"_?\\" = {ipa = "ˤ", code = "phard"}
 "_\\" = {ipa = "\u0302", code = "falltone"}
 "_^" = {ipa = "\u032f", code = "nonsyll"}
 "_}" = {ipa = "\u031a", code = "noaudrel"}
-"`" = {ipa = "\u02de", code = "rhot"}
-"~" = {ipa = "\u0303", code = "nas"}
 "_~" = {ipa = "\u0303", code = "nas"}
 _A = {ipa = "\u0318", code = "advtngroot"}
 _a = {ipa = "\u033a", code = "apical"}
 _B = {ipa = "\u030f", code = "xltone"}
-_B_L = {ipa = "\u1dc5", code = "lrisetone"}
 _c = {ipa = "\u031c", code = "lessround"}
 _d = {ipa = "\u032a", code = "dental"}
 _e = {ipa = "\u0334", code = "vel/phar"}
-"<F>" = {ipa = "↘︎", code = "glfall"}
 _F = {ipa = "\u0302", code = "falltone"}
 _G = {ipa = "ˠ", code = "velarized"}
 _H = {ipa = "\u0301", code = "htone"}
-_H_T = {ipa = "\u1dc4", code = "hrisetone"}
 _h = {ipa = "ʰ", code = "asp"}
 _k = {ipa = "\u0330", code = "creak"}
 _L = {ipa = "\u0300", code = "ltone"}
@@ -160,9 +86,7 @@ _n = {ipa = "ⁿ", code = "nasrel"}
 _O = {ipa = "\u0339", code = "moreround"}
 _o = {ipa = "\u031e", code = "lowered"}
 _q = {ipa = "\u0319", code = "rettngroot"}
-"<R>" = {ipa = "↗︎", code = "glrise"}
 _R = {ipa = "\u030c", code = "risetone"}
-_R_F = {ipa = "\u1dc8", code = "risefalltone"}
 _r = {ipa = "\u031d", code = "raised"}
 _T = {ipa = "\u030b", code = "xhtone"}
 _t = {ipa = "\u0324", code = "brthvoice"}
@@ -170,3 +94,81 @@ _v = {ipa = "\u032c", code = "voiced"}
 _w = {ipa = "ʷ", code = "labialized"}
 _X = {ipa = "\u0306", code = "xshort"}
 _x = {ipa = "\u033d", code = "midcentd"}
+1 = {ipa = "ɨ", v-c = "v", u-r = "u", poa = "central", moa = "close"}
+2 = {ipa = "ø", v-c = "v", u-r = "r", poa = "front", moa = "close-mid"}
+3 = {ipa = "ɜ", v-c = "v", u-r = "u", poa = "central", moa = "open-mid"}
+4 = {ipa = "ɾ", v-c = "c", u-v = "v", poa = "alveolar", moa = "flap"}
+5 = {ipa = "ɫ", v-c = "c", u-v = "v", poa = "velarized alveolar lateral", moa = "approximant", code = "darkl"}
+6 = {ipa = "ɐ", v-c = "v", u-r = "u", poa = "central", moa = "near-open"}
+7 = {ipa = "ɤ", v-c = "v", u-r = "u", poa = "back", moa = "close-mid"}
+8 = {ipa = "ɵ", v-c = "v", u-r = "r", poa = "central", moa = "close-mid"}
+9 = {ipa = "œ", v-c = "v", u-r = "r", poa = "front", moa = "open-mid"}
+a = {ipa = "a", v-c = "v", u-r = "u", poa = "front", moa = "open"}
+b = {ipa = "b", v-c = "c", u-v = "v", poa = "bilabial", moa = "plosive"}
+c = {ipa = "c", v-c = "c", u-v = "u", poa = "palatal", moa = "plosive"}
+d = {ipa = "d", v-c = "c", u-v = "v", poa = "alveolar", moa = "plosive"}
+e = {ipa = "e", v-c = "v", u-r = "u", poa = "front", moa = "close-mid"}
+f = {ipa = "f", v-c = "c", u-v = "u", poa = "labiodental", moa = "fricative"}
+g = {ipa = "ɡ", v-c = "c", u-v = "v", poa = "velar", moa = "plosive"}
+h = {ipa = "h", v-c = "c", u-v = "u", poa = "glottal", moa = "fricative"}
+i = {ipa = "i", v-c = "v", u-r = "u", poa = "front", moa = "close"}
+j = {ipa = "j", v-c = "c", u-v = "v", poa = "palatal", moa = "approximant"}
+k = {ipa = "k", v-c = "c", u-v = "u", poa = "velar", moa = "plosive"}
+l = {ipa = "l", v-c = "c", u-v = "v", poa = "alveolar lateral", moa = "approximant"}
+m = {ipa = "m", v-c = "c", u-v = "v", poa = "bilabial", moa = "nasal"}
+n = {ipa = "n", v-c = "c", u-v = "v", poa = "alveolar", moa = "nasal"}
+o = {ipa = "o", v-c = "v", u-r = "r", poa = "back", moa = "close-mid"}
+p = {ipa = "p", v-c = "c", u-v = "u", poa = "bilabial", moa = "plosive"}
+q = {ipa = "q", v-c = "c", u-v = "u", poa = "uvular", moa = "plosive"}
+r = {ipa = "r", v-c = "c", u-v = "v", poa = "alveolar", moa = "trill"}
+s = {ipa = "s", v-c = "c", u-v = "u", poa = "alveolar", moa = "fricative"}
+t = {ipa = "t", v-c = "c", u-v = "u", poa = "alveolar", moa = "plosive"}
+u = {ipa = "u", v-c = "v", u-r = "r", poa = "back", moa = "close"}
+v = {ipa = "v", v-c = "c", u-v = "v", poa = "labiodental", moa = "fricative"}
+P = {ipa = "ʋ", v-c = "c", u-v = "v", poa = "labiodental", moa = "approximant"}
+w = {ipa = "w", v-c = "c", u-v = "v", poa = "labial-velar", moa = "approximant"}
+x = {ipa = "x", v-c = "c", u-v = "u", poa = "velar", moa = "fricative"}
+y = {ipa = "y", v-c = "v", u-r = "r", poa = "front", moa = "close"}
+z = {ipa = "z", v-c = "c", u-v = "v", poa = "alveolar", moa = "fricative"}
+A = {ipa = "ɑ", v-c = "v", u-r = "u", poa = "back", moa = "open"}
+B = {ipa = "β", v-c = "c", u-v = "v", poa = "bilabial", moa = "fricative"}
+C = {ipa = "ç", v-c = "c", u-v = "u", poa = "palatal", moa = "fricative"}
+D = {ipa = "ð", v-c = "c", u-v = "v", poa = "dental", moa = "fricative"}
+E = {ipa = "ɛ", v-c = "v", u-r = "u", poa = "front", moa = "open-mid"}
+F = {ipa = "ɱ", v-c = "c", u-v = "u", poa = "labiodental", moa = "nasal"}
+G = {ipa = "ɣ", v-c = "c", u-v = "v", poa = "velar", moa = "fricative"}
+H = {ipa = "ɥ", v-c = "c", u-v = "v", poa = "labial-palatal", moa = "approximant"}
+I = {ipa = "ɪ", v-c = "v", u-r = "u", poa = "front", moa = "near-close"}
+J = {ipa = "ɲ", v-c = "c", u-v = "v", poa = "palatal", moa = "nasal"}
+K = {ipa = "ɬ", v-c = "c", u-v = "u", poa = "alveolar lateral", moa = "fricative"}
+L = {ipa = "ʎ", v-c = "c", u-v = "v", poa = "palatal lateral", moa = "approximant"}
+M = {ipa = "ɯ", v-c = "v", u-r = "u", poa = "back", moa = "close"}
+N = {ipa = "ŋ", v-c = "c", u-v = "v", poa = "velar", moa = "nasal"}
+O = {ipa = "ɔ", v-c = "v", u-r = "r", poa = "back", moa = "open-mid"}
+Q = {ipa = "ɒ", v-c = "v", u-r = "r", poa = "back", moa = "open"}
+R = {ipa = "ʁ", v-c = "c", u-v = "v", poa = "uvular", moa = "fricative"}
+S = {ipa = "ʃ", v-c = "c", u-v = "u", poa = "postalveolar", moa = "fricative"}
+T = {ipa = "θ", v-c = "c", u-v = "u", poa = "dental", moa = "fricative"}
+U = {ipa = "ʊ", v-c = "v", u-r = "r", poa = "back", moa = "near-close"}
+V = {ipa = "ʌ", v-c = "v", u-r = "u", poa = "back", moa = "open-mid"}
+W = {ipa = "ʍ", v-c = "c", u-v = "u", poa = "labial-velar", moa = "fricative"}
+X = {ipa = "χ", v-c = "c", u-v = "u", poa = "uvular", moa = "fricative"}
+Y = {ipa = "ʏ", v-c = "v", u-r = "r", poa = "front", moa = "near-close"}
+Z = {ipa = "ʒ", v-c = "c", u-v = "v", poa = "postalveolar", moa = "fricative"}
+"." = {ipa = ".", code = "syllbr"}
+"\"" = {ipa = "ˈ", code = "pristr"}
+"%" = {ipa = "ˌ", code = "secstr"}
+"'" = {ipa = "ʲ", code = "pal"}
+":" = {ipa = "ː", code = "long"}
+- = {ipa = "", code = "sep"}
+"@" = {ipa = "ə", v-c = "v", u-r = "u", poa = "central", moa = "mid"}
+"{" = {ipa = "æ", v-c = "v", u-r = "u", poa = "front", moa = "near-open"}
+"}" = {ipa = "ʉ", v-c = "v", u-r = "r", poa = "central", moa = "close"}
+"&" = {ipa = "ɶ", v-c = "v", u-r = "r", poa = "front", moa = "open"}
+"?" = {ipa = "ʔ", v-c = "c", u-v = "u", poa = "glottal", moa = "plosive"}
+"^" = {ipa = "ꜛ", code = "upstep"}
+"!" = {ipa = "ꜜ", code = "downstep"}
+"|" = {ipa = "|", code = "mingp"}
+"=" = {ipa = "\u0329", code = "syll"}
+"`" = {ipa = "\u02de", code = "rhot"}
+"~" = {ipa = "\u0303", code = "nas"}
