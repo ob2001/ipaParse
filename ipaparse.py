@@ -1,40 +1,21 @@
-import tomli
+import argparse
+from lib import parse_str, desc
 
-with open("x-sampa.toml", mode = 'rb') as fp:
-    data = tomli.load(fp)
+parser = argparse.ArgumentParser()
+parser.add_argument('-s', '--string', default = None)
+parser.add_argument('-f', '--file', default = None)
+parser.add_argument('-d', '--desc', default = None)
+args = parser.parse_args()
 
-tokens = data.keys()
+if all(arg == None for arg in vars(args).values()):
+    print("[" + parse_str("<F>\"hE%lo <R>w@`5d") + "]!")
+    print(desc("V"))
 
-def get_ipa_char(code):
-    return data[code]["ipa"]
-
-def parse_str(str):
-    res = ''
-    i = 0
-    while i < len(str):
-        if str[i:i+4] in tokens:
-            res += data[str[i:i+4]]["ipa"]
-            i += 4
-        elif str[i:i+3] in tokens:
-            res += data[str[i:i+3]]["ipa"]
-            i += 3
-        elif str[i:i+2] in tokens:
-            res += data[str[i:i+2]]["ipa"]
-            i += 2
-        elif str[i] in tokens:
-            res += data[str[i]]["ipa"]
-            i += 1
-        else:
-            res += ' '
-            i += 1
-    
-    return res
-
-def get_diacritic_by_code(code):
-    for key, val in data.items():
-        # print(key, val)
-        if isinstance(val, dict) and val.get("code") != None and val.get("code") == code:
-            return key
-    return ''
-
-print("[" + parse_str("<F>\"hE%5o <R>w@`ld") + "]!")
+if args.string != None:
+    print("[" + parse_str(args.string) + "]")
+if args.file != None:
+    with open(args.file) as fp:
+        input = fp.read()
+    print("[" + parse_str(input) + "]")
+if args.desc != None:
+    print(desc(args.desc))
