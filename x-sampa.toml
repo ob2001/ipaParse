@@ -1,5 +1,3 @@
-# ORDER IS IMPORTANT!!!
-
 "G\\_<" = {ipa = "ʛ", v-c = "c", u-v = "v", poa = "uvular", moa = "implosive"}
 "J\\_<" = {ipa = "ʄ", v-c = "c", u-v = "v", poa = "palatal", moa = "implosive"}
 "|\\|\\" = {ipa = "ǁ", v-c = "c", u-v = "u", poa = "alveolar lateral", moa = "click"}
