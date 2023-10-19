@@ -1,13 +1,19 @@
 import tomli
 
+# Read in X-SAMPA file for use in parsing input text
 with open("x-sampa.toml", mode = 'rb') as fp:
     data = tomli.load(fp)
 
+# Get list of tokens from data
 tokens = data.keys()
 
+# Returns the IPA character corresponding to the given
+# X-SAMPA code
 def get_ipa_char(code):
     return data[code]["ipa"]
 
+# Parses a continuous string of X-SAMPA-formatted plaintext
+# into IPA characters
 def parse_str(str):
     res = ''
     i = 0
@@ -30,6 +36,7 @@ def parse_str(str):
     
     return res
 
+# Returns the IPA diacritic with the corresponding provided code
 def get_diacritic_by_code(code):
     for key, val in data.items():
         # print(key, val)
@@ -37,6 +44,8 @@ def get_diacritic_by_code(code):
             return key
     return ''
 
+# Return a description of the IPA character with the provided
+# X-SAMPA code
 def desc(code):
     if data[code].get('code'):
         return f"{data[code]['ipa']}: {data[code]['code']}"
